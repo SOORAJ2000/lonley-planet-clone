@@ -1,0 +1,411 @@
+body {
+    margin: 0px;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.pictures {
+    position: absolute;
+    height: 700px;
+    width: auto;
+    background-color: black;
+}
+
+.first {
+    display: flex;
+}
+
+.pictures img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    opacity: 70%;
+}
+
+.third img:hover {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.second img:hover {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.first img:hover {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.strt {
+    text-align: left;
+    margin-left: 60px;
+}
+
+.imgg {
+    display: inline-flex;
+    font-size: 17px;
+    width: 11em;
+    height: 3em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 4em;
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuitems {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.heading {
+    position: absolute;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-self: center;
+    padding-left: 200px;
+    padding-top: 250px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(212, 212, 212);
+}
+
+.menuitemsie {
+    padding-right: 15px;
+}
+
+.strt1 {
+    font-size: 25px;
+    color: rgb(212, 212, 212);
+    padding-left: 15px;
+}
+
+.picdes1 {
+    position: absolute;
+    color: rgb(255, 251, 251);
+    font-size: 40px;
+}
+
+.descri {
+    display: flex;
+    padding-top: 600px;
+    font-size: 40px;
+    width: 100%;
+    position: absolute;
+}
+
+.picdes2 {
+    color: rgb(255, 251, 251);
+    position: absolute;
+    margin-left: 450px;
+}
+
+.picdes3 {
+    color: rgb(252, 252, 252);
+    position: absolute;
+    margin-left: 900px;
+}
+
+.fronttext {
+    padding-bottom: 30px;
+}
+
+.arrow {
+    display: inline-flex;
+    font-size: 17px;
+    width: 1em;
+    height: 1em;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.rishi {
+    font-size: 27px;
+    padding-left: 20px;
+}
+
+.rishi1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rishimy {
+    display: flex;
+    flex-direction: row;
+}
+
+.rishimy1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+.rishimy11 {
+    justify-content: space-between;
+}
+
+.rishimy12 {
+    font-size: 27px;
+    padding-left: 20px;
+}
+
+.secondsesion {
+    padding-left: 50px;
+}
+
+.rishi13 {
+    font-size: 27px;
+    padding-left: 20px;
+}
+
+.raphy {
+    background-image: url(sub.jpg);
+    height: 800px;
+    background-size: cover;
+}
+
+.raphy1 {
+    padding-top: 700px;
+    color: rgb(255, 251, 251);
+    align-items: center;
+    padding-left: 70px;
+}
+
+.sooraj {
+    font-size: 27px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sooraj1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.soorajmy1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+.soorajmy11 {
+    justify-content: space-between;
+}
+
+.soorajmy12 {
+    font-size: 27px;
+    position: absolute;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-self: center;
+    padding-left: 50px;
+    padding-top: 450px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+.soorajmy13 {
+    font-size: 27px;
+    padding-left: 20px;
+    justify-content: flex-end;
+}
+
+.soorajmy14 {
+    width: 100%;
+    position: static;
+}
+
+.sesion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ses {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.scotland {
+    border-radius: 30px;
+}
+
+.scotlandtext {
+    font-size: 20px;
+}
+
+.scot {
+    border-radius: 75px;
+    width: 200px;
+    height: 400px;
+}
+
+.instapage {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.headin {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.lonleyplanet {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgb(252, 248, 248);
+    font-size: 27px;
+    padding-bottom: 40px;
+}
+
+.followlonleyplanet {
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: rgb(252, 248, 248);
+    font-size: 17px;
+}
+
+.pictures1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.pictures1 {
+    position: absolute;
+    height: 200px;
+    width: auto;
+    background-color: rgb(25, 0, 168);
+    padding-bottom: 40px;
+}
+
+.first {
+    display: flex;
+}
+
+.pictures1 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    opacity: 70%;
+}
+
+.third1 img:hover {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.second1 img:hover {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.first1 img:hover {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+
+/*jesdxgdxgdxfdxfdxfdxfdxfcxf*/
+
+.footer {
+    padding-bottom: 80px;
+    padding-top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+.foot {
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.foot1 {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(12, 0, 187, 0.959);
+}
+
+.vishal {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.foot2 {
+    flex-direction: column;
+    flex: 1;
+}
+
+.img30 {
+    display: inline-flex;
+    font-size: 17px;
+    width: 5em;
+    height: 5em;
+    padding-left: 2em;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.ajay1 {
+    flex-direction: column;
+    padding-right: 20px;
+}
+
+.hea {
+    padding-left: 40px;
+    color: green;
+    padding-top: 40px;
+}
+
+.he {
+    padding-left: 40px;
+}
+
+.he h4:hover {
+    color: rgb(10, 233, 10);
+}
+
+.stefan {
+    display: flex;
+    flex-direction: column;
+    padding-right: 60px;
+}
