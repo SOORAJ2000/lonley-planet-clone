@@ -157,7 +157,6 @@ body {
 .rishimy1 {
     display: flex;
     flex-direction: column;
-    padding-right: 50px;
     padding-left: 20px;
 }
 
